@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+
+struct TLTask: Identifiable {
+    var id = UUID()
+    var title: String
+    var isCompleted = false
+}
